@@ -1,0 +1,123 @@
+
+body{
+    background-color: black;
+    text-size-adjust: center;
+    background-image: url(img/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: 3cm 3cm; */
+}
+  h1 {
+            color: rgb(7, 1, 1);
+      text-align: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ p {
+    color: rgb(255, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, serif;
+    font-style: oblique;
+    text-indent: 20px;
+ }
+
+ #minhaclasse {
+    text-align: justify;
+     color: violet;
+     font-family: Verdana, Geneva, Tahoma, serif;
+     font-style: unset;
+     font-variant: small-caps;
+}
+
+.minhacasse {
+       color: rgb(0, 0, 0);
+       font-family: 'Courier New', Courier, serif;
+       font-variant: inherit;
+       font-weight: 600;
+       font-size: larger;
+ }
+
+#txtriscado{
+    text-decoration: line-through;
+}
+#txttoupper{
+    text-transform: lowercase;
+}
+
+a:hover
+{
+    color: mediumorchid;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+#minhadiv
+{
+        margin: 50px 50px 50px 50px ;
+        padding:20px 20px 20px 20px ;
+        border-color: rgb(88, 0, 230);
+        border-width: thick;
+        border-style: dashed;
+        background-color: pink;
+        /* width: 600px ;
+        height: 300px; */
+        width: 50%;
+
+}
+#p1{
+    margin: 5px 5px 5px 5px ;
+    padding:20px 20px 20px 20px ;
+    border-color: rgb(88, 0, 230);
+    border-width: thick;
+    border-style: dashed;
+
+    background-color: pink;
+    float: left;
+    width: 30%;
+}
+
+#p2{
+    margin: 5px 5px 5px 5px ;
+    padding:20px 20px 20px 20px ;
+    border-color: rgb(88, 0, 230);
+    border-width: thick;
+    border-style: dashed;
+
+    background-color: pink;
+    float: left;
+    width: 30%;
+    z-index: 10;
+
+
+}
+#p3{
+    margin: 5px 5px 5px 5px ;
+    padding:20px 20px 20px 20px ;
+    border-color: rgb(88, 0, 230);
+    border-width: thick;
+    border-style: double;
+    float: left;
+    background-color: pink;
+    width: 30%;
+    z-index: 5;
+
+
+}
+#p4{
+    
+    top: 200px;
+    left: 300px;
+    position: relative;
+    color: black;
+    z-index: 5;
+    
+}
+#p5{
+    
+    top: 200px;
+    left: 300px;
+    position: absolute;
+    color: rgb(0, 231, 0);
+    z-index: -5;
+}
+
